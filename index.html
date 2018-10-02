@@ -23,17 +23,23 @@
         </div>
     </div>
     <div id="tabs">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link active" href="#">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
+        <ul class="nav nav-pills justify-content-center">
+            <li class="active"><a data-toggle="pill" href="#me">About Me</a></li>
+            <li><a data-toggle="pill" href="#menu1">Projects</a></li>
+            <li><a data-toggle="pill" href="#menu2">Contact</a></li>
         </ul>
+    </div>
+
+    <div class="tab-content">
+        <div id="me" class="tab-pane fade in active">
+            <p>Some content.</p>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+            <p>Some more content.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+            <p>Some content that is here.</p>
+        </div>
     </div>
 
     <!--bootstrap stuff-->
