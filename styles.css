@@ -9,3 +9,13 @@
 #pic {
     border-radius: 200px;
 }
+body {
+    background: linear-gradient(#ffefe6, #ffde96);
+    background-repeat: no-repeat;
+}
+#greet {
+    background-color: #bd68ff;
+}
+.tab-content {
+    background-color: #5dd8b3;
+}
