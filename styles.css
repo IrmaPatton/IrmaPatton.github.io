@@ -10,12 +10,26 @@
     border-radius: 200px;
 }
 body {
-    background: linear-gradient(#ffefe6, #ffde96);
+    background-image: linear-gradient(#ffefe6, #ffde96);
+    height: 100%;
+    margin: 0;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #greet {
     background-color: #bd68ff;
 }
 .tab-content {
     background-color: #5dd8b3;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.words {
+    color: #6b321a;
+}
+.wordss {
+    color: white;
+}
+.tab-words {
+    color: #6b321a;
 }
